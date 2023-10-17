@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+
 import '../nav_bar_body.dart';
 import '../paint/ripple_effect.dart';
 import '../paint/sliced_card.dart';
 
 class NavBarButton extends StatefulWidget {
   final String title;
-  final IconData icon;
+  final String icon;
   final bool isSelected;
   final Color activeColor;
   final double size;
@@ -151,9 +153,9 @@ class _NavBarButtonState extends State<NavBarButton>
                   ),
                 ),
               ),
-              child: Icon(
+              child: SvgPicture.asset(
                 widget.icon,
-                size: size,
+                // size: size,
                 color: inactiveColor,
               ),
             ),

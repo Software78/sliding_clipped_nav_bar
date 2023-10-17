@@ -78,25 +78,25 @@ class _MyHomePageState extends State<MyHomePage> {
               selectedIndex: selectedIndex,
               barItems: <BarItem>[
                 BarItem(
-                  icon: Icons.event,
+                  icon: 'Icons.event',
                   title: 'Events',
                   activeColor: Colors.blue,
                   inactiveColor: Colors.orange,
                 ),
                 BarItem(
-                  icon: Icons.search_rounded,
+                  icon: 'Icons.search_rounded',
                   title: 'Search',
                   activeColor: Colors.yellow,
                   inactiveColor: Colors.green,
                 ),
                 BarItem(
-                  icon: Icons.bolt_rounded,
+                  icon: 'Icons.bolt_rounded',
                   title: 'Energy',
                   activeColor: Colors.blue,
                   inactiveColor: Colors.red,
                 ),
                 BarItem(
-                  icon: Icons.tune_rounded,
+                  icon: 'Icons.tune_rounded',
                   title: 'Settings',
                   activeColor: Colors.cyan,
                   inactiveColor: Colors.purple,
@@ -111,19 +111,19 @@ class _MyHomePageState extends State<MyHomePage> {
               selectedIndex: selectedIndex,
               barItems: <BarItem>[
                 BarItem(
-                  icon: Icons.event,
+                  icon: 'Icons.event',
                   title: 'Events',
                 ),
                 BarItem(
-                  icon: Icons.search_rounded,
+                  icon: 'Icons.search_rounded',
                   title: 'Search',
                 ),
                 BarItem(
-                  icon: Icons.bolt_rounded,
+                  icon: 'Icons.bolt_rounded',
                   title: 'Energy',
                 ),
                 BarItem(
-                  icon: Icons.tune_rounded,
+                  icon: 'Icons.tune_rounded',
                   title: 'Settings',
                 ),
               ],

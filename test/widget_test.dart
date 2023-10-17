@@ -119,12 +119,12 @@ void main() {
 
 final BarItem _barItem = BarItem(
   title: 'title',
-  icon: Icons.home,
+  icon: '',
 );
 
 final BarItem _barItemWithColor = BarItem(
   title: 'title',
-  icon: Icons.home,
+  icon: '',
   activeColor: Colors.red,
   inactiveColor: Colors.green,
 );
