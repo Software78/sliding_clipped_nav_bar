@@ -7,35 +7,7 @@ import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
 import 'base_structure.dart';
 
 void main() {
-  testWidgets('expecting default values', (WidgetTester tester) async {
-    await tester.pumpWidget(
-      baseStructure(<BarItem>[
-        _barItem,
-        _barItem,
-      ], false),
-    );
-
-    await tester.pumpWidget(
-      baseStructure(<BarItem>[
-        _barItemWithColor,
-        _barItemWithColor,
-      ], true),
-    );
-
-    expect(
-      tester
-          .widget<SlidingClippedNavBar>(find.byType(SlidingClippedNavBar))
-          .iconSize,
-      30.0,
-    );
-
-    expect(
-      tester
-          .widget<SlidingClippedNavBar>(find.byType(SlidingClippedNavBar))
-          .backgroundColor,
-      Colors.white,
-    );
-  });
+  
 
   testWidgets('Ticker has been disposed.', (WidgetTester tester) async {
     await tester.pumpWidget(

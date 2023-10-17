@@ -57,7 +57,7 @@ class SlidingClippedNavBar extends StatelessWidget {
         _activeColor = activeColor,
         _inactiveColor = inactiveColor ?? activeColor.withOpacity(0.3),
         assert(barItems.length > 1, 'You must provide minimum 2 Menu items'),
-        assert(barItems.length < 5, 'Maximum menu item count is 4'),
+        assert(barItems.length < 6, 'Maximum menu item count is 4'),
         super(key: key);
 
   /// User you want to set individual item active & inactive color.
@@ -78,7 +78,7 @@ class SlidingClippedNavBar extends StatelessWidget {
         _activeColor = null,
         _inactiveColor = null,
         assert(barItems.length > 1, 'You must provide minimum 2 Menu items'),
-        assert(barItems.length < 5, 'Maximum menu item count is 4'),
+        assert(barItems.length < 6, 'Maximum menu item count is 4'),
         super(key: key);
 
   @override
